@@ -1,0 +1,31 @@
+﻿<textarea>
+<html>
+<body>
+<div style="color:green;font-size:60px;">
+<script language="JavaScript">
+var D1_dzi=prompt("D1=","");
+var D2_dzi=prompt("D2=","");
+var sekundy3;
+var sekundy1;
+var a=parseFloat(D1_dzi);
+var b=parseFloat(D2_dzi);
+sekundy1=a-b-1;
+sekundy1=sekundy1*86400;
+
+
+var G1_dzi=prompt("G1=","");
+var G2_dzi=prompt("G2=","");
+var sekundy2;
+var h;
+var c=parseFloat(G1_dzi);
+var d=parseFloat(G2_dzi);
+h=24-d;
+sekundy2=(h+c)*3600
+sekundy3=sekundy2+sekundy1;
+
+document.write("ilosc sekund= "+sekundy3+"s");
+</script>
+</div>
+</body>
+</html>
+</textarea>
