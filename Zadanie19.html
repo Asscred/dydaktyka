@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<head>
+<title> Użycie fukcji </title>
+<meta charset="utf-8">
+</head>
+<body>
+<div style="color:navy;font-size:50px;">
+<script language="JavaScript">
+var a=parseFloat(prompt("a=",""));
+var b=parseFloat(prompt("b=",""));
+
+
+function pole_dzi(a, b) {
+return a * a;
+}
+function obwod_dzi(a, b) {
+return (a + a)*2;
+}
+function pole_dzi2(a, b) {
+return a * b;
+}
+function obwod_dzi2(a, b) {
+return (a + b) *2;
+}
+
+
+document.write("pole kwadratu= "+pole_dzi(a,b)+"<br>");
+document.write("obwod kwadratu= "+obwod_dzi(a,b)+"<br> <br>");
+
+document.write("pole prostokata= "+pole_dzi2(a,b)+"<br>");
+document.write("obwod prostokata= "+obwod_dzi2(a,b)+"<br>");
+
+
+</script>
+</div>
+</body>
+</html>
