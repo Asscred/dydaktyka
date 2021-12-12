@@ -1,0 +1,29 @@
+﻿<textarea>
+<html>
+<body>
+<div style="color:black;font-size:20px;">
+<script language="JavaScript">
+
+var liczba1=prompt("R=","");
+var R=parseFloat(liczba1);
+var licznik_dziu=0;
+
+for( var i=Math.round(R)-1; i<=Math.round(R)+1; i++)
+	{
+		for( var j=Math.round(R)-1; j<=Math.round(R)+1; j++)
+			{
+				d=Math.sqrt(i*i+j*j);
+				document.write("d="+d+"<br>");
+				document.write("("+i+" , "+j+")"+"  ");
+				if(d<=R){licznik_dziu++;}
+			}
+	document.write("<br>");
+	}
+		document.write("Licznik="+licznik_dziu + "<br>");
+		
+	
+</script>
+</div>
+</body>
+</html>
+</textarea>
