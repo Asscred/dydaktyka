@@ -1,0 +1,45 @@
+﻿<textarea>
+<html>
+<script language="JavaScript">
+
+ var ab=prompt("Podaj liczbe a: ");
+ var a =parseFloat(ab);
+ var ba=prompt("Podaj liczbe b: ");
+ var b =parseFloat(ba);
+ 
+
+
+if(a>b)
+{
+	for (var i = 1;  i <= b; i++)  
+	{	
+		document.write("<font color='green'><font size='5'>"+a+" jest wieksza od b"+"<br>");
+		a=a+1;
+	}
+}
+
+if(a<b)
+{
+	for (var i = b;  i >= 1; i--)  
+	{	
+		document.write("<font color='blue'><font size='3'>"+b+" jest mniejsza od b"+"<br>");
+		b=b-1;
+	}
+}
+
+	if(a==b)
+	{
+		var r=confirm("Liczby są równe - Brak obliczeń!");
+	}
+	
+
+
+
+
+</script>
+<body>
+
+</div>
+</body>
+</html>
+</textarea>
