@@ -1,0 +1,48 @@
+﻿<textarea>
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+ 
+      function prostokat(n, m)
+      {
+		
+		var i, j;
+        for (i = 1; i <= n; i++)
+        {
+          for (j = 1; j <= m; j++)
+          {
+            if (i == 1 || i == n || j == 1 || j == m)
+                 document.write("*");
+            else
+                document.write("&nbsp;&nbsp;");
+          }
+          document.write("<br>");
+		  
+        }
+      }
+ 
+      
+        var ab=prompt("Podaj liczbe a: ");
+		var a=parseFloat(ab);
+		var ba=prompt("Podaj liczbe b: ");
+		var b=parseFloat(ba);
+		
+		var im=prompt("Podaj imie: ");
+		var na=prompt("Podaj nazwisko: ");
+	
+	 document.write("Wpisane imie to: "+im+"<br>");
+	  document.write("Wpisane nazwisko to: "+na+"<br>");
+	  
+	  var rows = a,
+       columns = b;
+      prostokat(rows, columns);
+	  
+	 
+       
+
+</script>
+</div>
+</body>
+</html>
+</textarea>
