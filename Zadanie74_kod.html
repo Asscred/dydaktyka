@@ -1,0 +1,29 @@
+<textarea>
+<html>
+	<head>
+		<script language="JavaScript">
+			function funkcja_dzi(i)
+			{
+			  	if(i%3==0)
+			  	{
+			  		confirm("Aby kontynuować, naciśnij dowolny klawisz");
+			  	}
+
+			  	pierw2_dzi = Math.sqrt(i).toFixed(2);
+				pierw4_dzi = Math.sqrt(Math.sqrt(i)).toFixed(2);
+
+			  	document.write("i="+i+"&nbsp;&nbsp;&nbsp;&nbsp; pierw_2("+i+") = "+pierw2_dzi+"&nbsp;&nbsp;&nbsp;&nbsp; pierw_4("+i+") = "+pierw4_dzi+"<br>");
+			}
+		</script>
+	</head>
+
+	<body>
+			<script language="JavaScript">
+		  		for(i=8; i<=21; i++)
+  	  			{
+			  		funkcja_dzi(i);
+		  	 	}
+			</script>
+	</body>
+</html>
+</textarea>
